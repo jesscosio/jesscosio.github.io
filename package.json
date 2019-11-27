@@ -1,0 +1,19 @@
+{
+  "name": "jesscosio.github.io",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/jesscosio/jesscosio.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesscosio/jesscosio.github.io.git"
+  },
+  "author": "jcosio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesscosio/jesscosio.github.io/issues"
+  },
+  "homepage": "https://github.com/jesscosio/jesscosio.github.io#readme"
+}
