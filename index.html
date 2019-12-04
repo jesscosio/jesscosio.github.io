@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 
-
 <html>
 <head>
 <title>Hello Test</title>
+<!-- development version, includes helpful console warnings -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/vuex"></script>
+<script src="node_modules/moment/min/moment.min.js"></script>
+<script src="dist/main.js"></script>
+
 </head>
 
-<!-- development version, includes helpful console warnings -->
-<script src="https://unpkg.com/vue"></script>
 
-<div id="app">
-        {{ message }}
-</div>
 <body>
 
 
-<p>Hello there.</p>
+<div id="app">
+    <p>Greetings, {{message}}</p>
+</div>
+<script>
+        const vueApp = new Vue({
+          el: '#app',
+          data: { 
+           message: 'Vue' 
+          }
+        })
+</script>
 
 </body>
 
