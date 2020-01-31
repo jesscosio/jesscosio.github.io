@@ -7,25 +7,13 @@
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://unpkg.com/vuex"></script>
 <script src="node_modules/moment/min/moment.min.js"></script>
-<script src="dist/main.js"></script>
-
 </head>
 
 
 <body>
+<div id="app"></div>
 
-
-<div id="app">
-    <p>Greetings, {{message}}</p>
-</div>
-<script>
-        const vueApp = new Vue({
-          el: '#app',
-          data: { 
-           message: 'Vue' 
-          }
-        })
-</script>
+<script src="dist/main.js"></script>
 
 </body>
 
