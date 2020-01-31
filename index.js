@@ -6,6 +6,9 @@ import router from './src/router';
 
 console.log("Hello from JavaScript!");
 console.log(moment().startOf('day').fromNow());
+if (process.env.NODE_ENV !== 'production') {
+    console.log('Looks like we are in development mode!'); 
+}
 
 var name = "Visitor", time = "today";
 console.log(`Hello ${name}, how are you ${time}?`);
