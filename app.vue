@@ -1,16 +1,12 @@
 <template>
 <div id="app">
-    <nav />
-        {{ message }}
+    <router-view></router-view>
 </div>
 </template>
 
 <script>
+
 export default {
-    el: '#app',
-    components: [nav],
-    data: {
-        message: 'Hello Vue!'
-    } 
+    name: 'app',
 }
 </script>  
