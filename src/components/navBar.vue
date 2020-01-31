@@ -4,11 +4,11 @@
             <ul>
                 <router-link to="/">Home</router-link>
                 <router-link to="/about">About Me</router-link>
-                <router-link>Languages</router-link>
-                <!-- <router-link>Pokemon</router-link>
+                <!-- <router-link to="/languages">Languages</router-link> -->
+                <!-- <router-link to="/pokemon">Pokemon</router-link>
                 
-                <router-link>Hobbies</router-link>
-                <router-link>Blog</router-link> -->
+                <router-link to="/hobbies">Hobbies</router-link>
+                <router-link to="/blog">Blog</router-link> -->
             </ul>
         </nav>
          </div>
