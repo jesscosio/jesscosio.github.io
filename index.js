@@ -7,7 +7,7 @@ import router from './src/router';
 console.log("Hello from JavaScript!");
 console.log(moment().startOf('day').fromNow());
 
-var name = "Joe", time = "today";
+var name = "Visitor", time = "today";
 console.log(`Hello ${name}, how are you ${time}?`);
 
 new Vue({
