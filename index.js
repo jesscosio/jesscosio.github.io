@@ -3,17 +3,21 @@ import Vue from 'vue';
 import moment from 'moment';
 import app from './app.vue';
 import router from './src/router';
+import store from './store.js';
 
-console.log("Hello from JavaScript!");
-console.log(moment().startOf('day').fromNow());
+
+var name = "Visitor";
+var timePassed =  moment("2020-02-13T22").fromNow();
+
+console.log("Hello from Jess " + timePassed + "!");
 if (process.env.NODE_ENV !== 'production') {
     console.log('Looks like we are in development mode!'); 
 }
 
-var name = "Visitor", time = "today";
-console.log(`Hello ${name}, how are you ${time}?`);
+console.log(`Hello ${name}, how are you today?`);
 
 new Vue({
     render: h => h(app),
     router,
+    store
 }).$mount('#app');

@@ -5,8 +5,9 @@ import AboutMe from '../about/AboutMe.vue';
 
 Vue.use(Router);
 
+
 export default new Router({
-    
+    mode: 'history',
     routes: [
         {
             path: '/',
@@ -16,7 +17,7 @@ export default new Router({
         {
             path: '/about',
             name: 'AboutMe',
-            component: AboutMe
+            component:  AboutMe
         },
     ]
 });
