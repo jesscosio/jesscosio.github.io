@@ -1,25 +1,54 @@
 <template>
     <div id="about">
         <navBar/>
-        <img src="./heraldsquare.jpg" alt="heraldsquare">
-        <span class="bio">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales. Tortor posuere ac ut consequat semper viverra nam. Viverra ipsum nunc aliquet bibendum enim. Sollicitudin aliquam ultrices sagittis orci a. Lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Consectetur adipiscing elit pellentesque habitant morbi tristique. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo. Urna nunc id cursus metus. Commodo odio aenean sed adipiscing. Amet nisl suscipit adipiscing bibendum. Vitae ultricies leo integer malesuada nunc. Consequat interdum varius sit amet. Mauris commodo quis imperdiet massa tincidunt nunc. Morbi tristique senectus et netus et malesuada fames. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar proin. Pellentesque elit eget gravida cum. Libero nunc consequat interdum varius sit amet mattis vulputate. Enim lobortis scelerisque fermentum dui. At urna condimentum mattis pellentesque id nibh tortor id.
+        <img src="../assets/heraldsquare.jpg" alt="heraldsquare">
+        
+         <span class="bio">
+            <p>Contact • EMAIL : jessica.cosio@icloud.com • MOBILE : (805) 865-6148 
+            <p>EDUCATION • CALIFORNIA POLYTECHNIC STATE UNIVERSITY SAN LUIS OBISPO, CA B.S. Software Engineering</p>
+            <p>EXPERIENCE• MACY’S INC. Software Engineer</p>
+            <p>
+                Winter 2015
+SAN FRANCISCO, CA
+Aug 2015 - Present
+o Full stack web development – Javascript, Node, Backbone, HTML, CSS/SCSS, responsive, Angular, Java, Jboss, Maven
+o A/B testing and KPI tracking through web analytics implementations
+o Analytics using IBM coremetrics
+o High priority/urgent code delivery and defect fixes
+o Unit test coverage and performance test base lining behind delivered features o Strong emphasis on process and delivery- especially using lean principles
+o Web app marketing research - emphasis on privacy and UX implications o Daily documentation of work as a steady habit
+o Weekly showcase of work to business stakeholders
+            </p>
+            <p>Tech Star Executive Development Program Aug 2015 – Jan 2016
+o Balanced platform development with human resources managed training sessions
+o Delivered monthly showcase to program stakeholders, managers, and colleagues
+o Mobile Platform and Content Engineering- creation of common components for web developers, executed library updates</p>
 
-Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Pretium fusce id velit ut tortor pretium. Nisi scelerisque eu ultrices vitae auctor. Libero enim sed faucibus turpis. Eleifend mi in nulla posuere sollicitudin. Pharetra sit amet aliquam id diam maecenas ultricies mi eget. Nulla malesuada pellentesque elit eget gravida cum sociis natoque. Turpis egestas pretium aenean pharetra magna. Consequat mauris nunc congue nisi. Diam sollicitudin tempor id eu nisl nunc mi. Iaculis urna id volutpat lacus laoreet non curabitur gravida arcu. Neque viverra justo nec ultrices dui sapien eget mi. Dapibus ultrices in iaculis nunc sed augue lacus viverra. Donec massa sapien faucibus et molestie ac feugiat sed. Interdum velit euismod in pellentesque massa placerat duis. Praesent elementum facilisis leo vel fringilla est ullamcorper. Euismod nisi porta lorem mollis. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Ultricies leo integer malesuada nunc vel risus.
 
-Diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Diam maecenas sed enim ut sem viverra aliquet eget. Tortor pretium viverra suspendisse potenti nullam. Venenatis urna cursus eget nunc scelerisque viverra. Mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor. Viverra nam libero justo laoreet sit amet cursus sit amet. Egestas congue quisque egestas diam. Id neque aliquam vestibulum morbi blandit cursus risus at. Sed vulputate odio ut enim blandit volutpat. Lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci. Arcu dui vivamus arcu felis bibendum ut. Rhoncus aenean vel elit scelerisque mauris pellentesque. Urna condimentum mattis pellentesque id nibh tortor id aliquet. Tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula.
-
-Id consectetur purus ut faucibus pulvinar elementum integer. Elit at imperdiet dui accumsan sit amet nulla facilisi. Pellentesque nec nam aliquam sem et tortor consequat id porta. In iaculis nunc sed augue lacus. Libero nunc consequat interdum varius sit amet mattis vulputate. At auctor urna nunc id cursus metus aliquam eleifend mi. Nullam ac tortor vitae purus faucibus. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Ultrices gravida dictum fusce ut placerat orci nulla pellentesque. Non arcu risus quis varius quam quisque id diam. Dolor morbi non arcu risus quis varius quam quisque id.
-
-Aliquet porttitor lacus luctus accumsan tortor posuere ac ut. Amet risus nullam eget felis eget nunc lobortis. Sit amet mauris commodo quis. Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus a. Lacus vel facilisis volutpat est. Tellus molestie nunc non blandit. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. In dictum non consectetur a erat nam. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio. Aliquet risus feugiat in ante metus. Neque sodales ut etiam sit amet nisl. Fames ac turpis egestas sed tempus urna et pharetra pharetra. Fermentum leo vel orci porta non pulvinar neque laoreet suspendisse. Tincidunt praesent semper feugiat nibh sed pulvinar proin gravida hendrerit. Vel orci porta non pulvinar neque laoreet suspendisse. Integer enim neque volutpat ac tincidunt vitae semper quis.
-    
-        </span>
+<p>• AUTOLIV – NIGHT VISION Goleta, CA
+Software Intern June 2015-Aug 2015
+o Insured validity of gain calibration testing software used for night vision cameras o Created test documentation for verification of calibration software
+o Developed small script for one off need from EE lab
+PROJECTS
+• MACY’S VOICE LAB: Researched and developed voice applications for Google Home and Alexa platforms utilizing Google Cloud and AWS Lambda. Assisted with architecting a single codebase and creating module components.
+• SHOPPABLE CONTENT LEAN LAB : Responsible for running experiments and studying behavior of Macy’s customers on the responsive website to gain insight on producing
+valuable content recommendations.
+• MOBILE WEB INNOVATION LEAN LAB : Responsible for running front-end experiments and studying the behavior of our mobile web customers to gain insight into providing an enhanced mobile shopping experience. Utilized A/B testing techniques and worked under principles of Fast, Clean, and Modern.
+• GOOGLE AMP HACKATHON, NYC 2018: Macy’s homepage written in AMP.
+• MACY’S HACKATHON TOP 5 CONTESTANT, 2017: Thumbs up! implemented a tap and zoom capability on the mobile website’s browse and search pages for viewing a high resolution image
+of the product.
+• MACY’S IDEA LAB, MEN’ S WEARHOUSE ONLINE TUXEDO RENTAL PROJECT: Assisted in the “crawl” phase of a new partnership with Men’s Wearhouse that would ease the rental process for groups including the process for sizing and ordering.
+• MOBILE WEB PLATFORM : Developed code and took ownership alongside a veteran team for optimizing the Macy's website for mobile/tablet devices. </p>
+         </span>
+        
+        
         
         </div>
 </template>
 
 <script>
 import navBar from "../components/navBar.vue";
+
 
 export default {
     name: "AboutMe",
@@ -40,6 +69,10 @@ img {
     float: right;
     max-height: 250px;
     display: inline;
+}
+
+#about /deep/ a {
+   color: black;
 }
 
 </style>
