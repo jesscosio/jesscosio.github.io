@@ -7,7 +7,7 @@ import store from './store.js';
 
 
 var name = "Visitor";
-var timePassed =  moment("2020-02-17T22").fromNow();
+var timePassed =  moment("2020-02-17T21").fromNow();
 
 console.log("Hello from Jess " + timePassed + "!");
 if (process.env.NODE_ENV !== 'production') {
