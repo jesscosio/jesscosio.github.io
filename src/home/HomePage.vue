@@ -48,7 +48,6 @@ const HomePage = {
             }      
 
             img.then((data)=>{
-                console.log(data.default);
                 document.getElementById("homeImg").src = data.default;
             });
         }
