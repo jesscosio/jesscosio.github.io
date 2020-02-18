@@ -9,6 +9,6 @@ Site includes:
 * a link to my Github page
 * a link to my Alma mater
 
-[Link](jesscosio.github.io) ‾\_(ツ)_/‾
+[https://jesscosio.github.io] ‾\_(ツ)_/‾
 ```
 
