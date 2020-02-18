@@ -1,7 +1,7 @@
 <template>
     <div id="about">
         <navBar/>
-        <img src="../assets/heraldsquare.jpg" alt="heraldsquare">
+        <img id="aboutImg" data-src="../assets/heraldsquare.jpg" alt="heraldsquare">
         
          <span class="bio">
             <p>Contact • EMAIL : jessica.cosio@icloud.com • MOBILE : (805) 865-6148 
@@ -42,18 +42,27 @@ of the product.
          </span>
         
         
-        
         </div>
 </template>
 
 <script>
 import navBar from "../components/navBar.vue";
-
+// import welcomeCard from "../about/cards/welcomeCard.vue";
 
 export default {
     name: "AboutMe",
     components: {
-        navBar
+        navBar,
+        // welcomeCard
+    },
+    mounted() {
+        const img =  import(/* webpackChunkName: "heraldsquare" */ "../assets/heraldsquare.jpg");
+        img.then((data)=>{
+            console.log(data.default);
+            document.getElementById("aboutImg").src = data.default;
+        });
+        
+        
     }
 }
 </script>

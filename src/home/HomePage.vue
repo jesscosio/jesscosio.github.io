@@ -1,7 +1,6 @@
 <template>
 <div id="HomePage">
-    <div v-bind:style="{width:windowWidth+'px'}"  v-bind:class="[{homeImgLrg: windowWidth >= 724}, {homeImgSml: windowWidth <= 320}, {homeImgMed: windowWidth < 724}, 'homeImg']"></div>
-    
+    <img id='homeImg'/>
     <navBar />
 </div>
     
@@ -9,6 +8,9 @@
 
 <script>
 import navBar from '../components/navBar.vue';
+
+const largeScreen = 724;
+const smallScreen = 330;
 
 const HomePage = {
     name: 'HomePage',
@@ -21,16 +23,34 @@ const HomePage = {
     },
     created() {
         window.addEventListener('resize', this.handleResize);
-        document.body.style.overflow = "hidden";
-
+        this.loadBackground();
     },
     beforeDestroy() {
         window.removeEventListener('resize', this.handleResize);
-        document.body.style.overflow = "";
+        document.body.style.overflow = ""; // -- should reset modified body -- 
     },
     methods: {
         handleResize: function() {
+
             this.windowWidth = window.innerWidth;
+            this.loadBackground();
+        },
+        loadBackground: function() {
+            document.body.style.overflow = "hidden";
+            let img;
+
+            if(this.windowWidth >= largeScreen) {
+                img =  import(/* webpackChunkName: "largeImage" */ "../assets/mowgli-lrg.jpg");
+            } else if (this.windowWidth < largeScreen && this.windowWidth > smallScreen) {
+                img =  import(/* webpackChunkName: "medImage" */ "../assets/wrongway-med.jpg");
+            } else {
+                img =  import(/* webpackChunkName: "smallImage" */ "../assets/stomp.jpg");
+            }      
+
+            img.then((data)=>{
+                console.log(data.default);
+                document.getElementById("homeImg").src = data.default;
+            });
         }
     }
     
@@ -40,26 +60,11 @@ export default HomePage;
 
 <style scoped>
 
-.homeImgLrg {
-    background-image: url("../assets/mowgli-lrg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.homeImgMed {
-    background-image: url("../assets/wrongway-med.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.homeImgSml {
-    background-image: url("../assets/citywalk-sml.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.homeImg {
+#homeImg {
         height: 100%;
-        width: 100%;
         opacity: 80%;
+        background-size: cover;
+        background-repeat: no-repeat;
 }
 #HomePage {
     position: fixed;
