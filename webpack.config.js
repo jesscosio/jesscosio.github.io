@@ -4,8 +4,8 @@ module.exports = {
     mode: 'production',
     entry: './index.js',
     output: {
-      filename: 'main.js',
-      publicPath: 'dist'
+      filename: '[name].bundle.js',
+      path: path.resolve(__dirname, 'dist'),
     },
     devServer: {
       historyApiFallback: true
