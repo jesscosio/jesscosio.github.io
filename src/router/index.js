@@ -1,17 +1,20 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import HomePage from '../home/HomePage.vue';
-import AboutMe from '../about/AboutMe.vue';
 
 Vue.use(Router);
 
+
+const HomePage = () =>
+    import(/* webpackChunkName: "home"*/'../home/HomePage.vue');
+const AboutMe = () =>
+    import(/* webpackChunkName: "about"*/'../about/AboutMe.vue');
 
 export default new Router({
     mode: 'history',
     routes: [
         {
             path: '/',
-            name: 'Home',
+            name: 'HomePage',
             component: HomePage
         },
         {
