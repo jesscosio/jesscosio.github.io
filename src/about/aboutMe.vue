@@ -58,7 +58,6 @@ export default {
     mounted() {
         const img =  import(/* webpackChunkName: "heraldsquare" */ "../assets/heraldsquare.jpg");
         img.then((data)=>{
-            console.log(data.default);
             document.getElementById("aboutImg").src = data.default;
         });
         
