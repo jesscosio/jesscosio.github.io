@@ -5,7 +5,7 @@ module.exports = {
     entry: './index.js',
     output: {
       filename: 'main.js',
-      publicPath: 'dist'
+      publicPath: 'dist/'
     },
     devServer: {
       historyApiFallback: true
