@@ -37,6 +37,7 @@ const HomePage = {
         },
         loadBackground: function() {
             document.body.style.overflow = "hidden";
+            document.body.style.margin = 0;
             let img;
 
             if(this.windowWidth >= largeScreen) {
