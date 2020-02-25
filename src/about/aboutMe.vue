@@ -33,17 +33,17 @@
 • Performed validation of newly updated gain calibration software on production floor equipment  <br>
 • Wrote documentation used for the validation of software used to calibrate night vision cameras <br>
 • Installed updates of calibration software on production floor equipment<br>
-• Delivered script to EE lab - [powershell]<br>
+• Worked with EE lab to deliver script that transferred template files - [powershell]<br>
 </p>
 
 <h2>PROJECTS</h2>
 <p>
-• MACY'S STORE HUB: [javascript, vue, vuex, node, npm, webpack]
-<br>• MACY'S OMNICLIENT STYLIST TOOL: [ javascript, node, angular, java, jboss, maven, sql ] 
+• MACY'S STORE HUB: [javascript, vue, vuex, node, npm, webpack] Front End development for a Macy's internal tool that manages Macy's store event information
+<br>• MACY'S OMNICLIENT STYLIST TOOL: [ javascript, node, angular, java, jboss, maven, sql ] Full stack development for a Macy's internal webapp used by Macy's store stylists to communicate with their clients via text
 <br>• MACY’S VOICE LAB: [typescript, node, express, firebase, google cloud, aws-lambda, actions on google, alexa v2] Researched and developed voice applications for Google Home and Alexa platforms utilizing Google Cloud and AWS Lambda. Assisted with developing a shareable component that developers could extend 
 <br>• SHOPPABLE CONTENT LEAN LAB : [javascript, node, backbone, handlebars] Responsible for running experiments and studying behavior of Macy’s customers on the responsive website to gain insight on producing
 valuable content recommendations.
-<br>• MOBILE WEB INNOVATION LEAN LAB : [javascript, node, backbone, handlebars] Responsible for running front-end experiments and studying the behavior of our mobile web customers to gain insight into providing an enhanced mobile shopping experience. Utilized A/B testing techniques and worked under principles of Fast, Clean, and Modern
+<br>• MOBILE WEB INNOVATION LEAN LAB : [javascript, node, backbone, handlebars] Responsible for running front-end A/B experiments, studying the signals of our mobile web customers and implementing features that provide an enhanced mobile shopping experience. 
 <br>• GOOGLE AMP HACKATHON, NYC 2018: Macy’s homepage written in AMP
 <br>• MACY’S HACKATHON TOP 5 CONTESTANT, 2017: Thumbs up! implemented a tap and zoom capability on the mobile website’s browse and search pages for viewing a high resolution image
 of the product
