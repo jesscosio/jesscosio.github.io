@@ -22,5 +22,9 @@ export default new Router({
             name: 'AboutMe',
             component:  AboutMe
         },
+        {
+            path: '*',
+            component: HomePage
+        },
     ]
 });
