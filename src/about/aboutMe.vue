@@ -10,12 +10,12 @@
 <h3>Macy’s Inc. Software Engineer San Francisco, CA Aug 2015 - Present</h3>
             <p>
 <br>• Full stack web development – [javascript, html, css/scss, node, npm, webpack, vue, git, react, typescript, express, backbone, responsive]
-<br>• A/B testing and KPI tracking through web analytics implementations
+<br>• A/B testing and KPI tracking using web analytics implementations
 <br>• Analytics using IBM coremetrics
 <br>• High priority/urgent code delivery and defect fixes
 <br>• Unit test coverage and performance test base lining behind delivered features 
 <br>• Strong emphasis on process and delivery- especially using lean principles
-<br>• Web app UX research - investigated implications, and proceeded with implementation 
+<br>• Web app UX research - established a/b test result implications, and proceeded with implementation 
 <br>• Daily documentation of work as a steady habit
 <br>• Weekly showcase of work to business stakeholders
             </p>
@@ -25,7 +25,7 @@
 <br> • Contributions to Macy's mobile single page webapp
 <br> • Human resources sponsored training sessions
 <br>• Delivered monthly showcase to program stakeholders, managers, and colleagues
-<br>• Mobile Platform and Content Engineering- creation of common components for web developers, executed library updates</p>
+<br>• Mobile Platform and Content Engineering - creation of common components for web developers, executed library updates</p>
 
 
 <h3>Autoliv – Night Vision Goleta, CA Software Intern June 2015-Aug 2015</h3>
@@ -40,10 +40,11 @@
 <p>
 • MACY'S STORE HUB: [javascript, vue, vuex, node, npm, webpack] Front End development for a Macy's internal tool that manages Macy's store event information
 <br>• MACY'S OMNICLIENT STYLIST TOOL: [ javascript, node, angular, java, jboss, maven, sql ] Full stack development for a Macy's internal webapp used by Macy's store stylists to communicate with their clients via text
-<br>• MACY’S VOICE LAB: [typescript, node, express, firebase, google cloud, aws-lambda, actions on google, alexa v2] Researched and developed voice applications for Google Home and Alexa platforms utilizing Google Cloud and AWS Lambda. Assisted with developing a shareable component that developers could extend 
+<br>• MACY’S VOICE LAB: [typescript, node, express, firebase, google cloud, aws-lambda, actions on google, alexa v2] Researched and developed voice applications for Google Home and Alexa platforms utilizing Google Cloud and AWS Lambda. 
+Assisted in developing a shareable component that developers could extend in order to minimize code duplication and for fast delivery
 <br>• SHOPPABLE CONTENT LEAN LAB : [javascript, node, backbone, handlebars] Responsible for running experiments and studying behavior of Macy’s customers on the responsive website to gain insight on producing
-valuable content recommendations.
-<br>• MOBILE WEB INNOVATION LEAN LAB : [javascript, node, backbone, handlebars] Responsible for running front-end A/B experiments, studying the signals of our mobile web customers and implementing features that provide an enhanced mobile shopping experience. 
+valuable content recommendations
+<br>• MOBILE WEB INNOVATION LEAN LAB : [javascript, node, backbone, handlebars] Responsible for running front-end A/B experiments, studying the signals of our mobile web customers and implementing features that provide an enhanced mobile shopping experience
 <br>• GOOGLE AMP HACKATHON, NYC 2018: Macy’s homepage written in AMP
 <br>• MACY’S HACKATHON TOP 5 CONTESTANT, 2017: Thumbs up! implemented a tap and zoom capability on the mobile website’s browse and search pages for viewing a high resolution image
 of the product
@@ -51,6 +52,7 @@ of the product
 <br>• MOBILE WEB PLATFORM : Developed code and took ownership alongside a veteran team for optimizing the Macy's website for mobile/tablet devices
  </p>   
          </div>
+         <navBar/>
         </div>
 </template>
 

@@ -3,7 +3,7 @@
         <nav>
             <ul>
                 <router-link to="/" exact>Home</router-link>
-                <router-link to="/about" exact>About Me</router-link>
+                <router-link to="/about" exact>About</router-link>
                 <a href="https://github.com/jesscosio">Github</a>
                 <a href="https://www.linkedin.com/in/jesscosio/">LinkedIn</a>
                 <a href="https://www.calpoly.edu/">CalPoly- SLO</a>
