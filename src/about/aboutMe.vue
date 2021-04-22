@@ -7,7 +7,7 @@
             <p> EMAIL : jessica.cosio@icloud.com MOBILE : (805) 865-6148 </p>
             <h2> EDUCATION </h2><h3>CALIFORNIA POLYTECHNIC STATE UNIVERSITY SAN LUIS OBISPO, CA B.S. Software Engineering</h3>
             <h2> EXPERIENCE</h2> 
-<h3>Macy’s Inc. Software Engineer San Francisco, CA Aug 2015 - Present</h3>
+<h3>Macy’s Inc. Software Engineer San Francisco, CA Aug 2015 - March 2020</h3>
             <p>
 <br> Full stack web development – [javascript, html, css/scss, node, npm, webpack, vue, git, react, typescript, express, backbone, responsive]
 <br> A/B testing and KPI tracking using web analytics implementations
